@@ -1,0 +1,15 @@
+{
+	"name": "df-azurebootcamp",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "swedencentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4ec8ec3f-7a84-4351-8c28-e86dd64894e1",
+		"tenantId": "4cec96a7-0672-459a-9444-2e5eee45d71c"
+	}
+}
