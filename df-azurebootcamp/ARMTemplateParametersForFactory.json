@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-azurebootcamp"
+		},
+		"azure_sql_password": {
+			"value": ""
+		},
+		"datalakeconn_accountKey": {
+			"value": ""
+		},
+		"azure_sql_properties_typeProperties_server": {
+			"value": "serverazurebootcamp.database.windows.net"
+		},
+		"azure_sql_properties_typeProperties_database": {
+			"value": "dbrbootcampazure"
+		},
+		"azure_sql_properties_typeProperties_userName": {
+			"value": "daniel"
+		},
+		"datalakeconn_properties_typeProperties_url": {
+			"value": "https://storageforazureproject.dfs.core.windows.net/"
+		}
+	}
+}
